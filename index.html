@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учебный интернет-магазин</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__logo" href="index.html">ShopProject</a>
+
+    <nav class="site-nav" aria-label="Основная навигация">
+      <ul class="site-nav__list">
+        <li class="site-nav__item">
+          <a class="site-nav__link site-nav__link--active" href="index.html">Главная</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="contacts.html">Контакты</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="index.html#advantages">Преимущества</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="index.html#popular">Популярные товары</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="index.html#contacts">Обратная связь</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <!-- Основное содержимое страницы -->
+    <section class="hero">
+      <h1>Учебный интернет-магазин</h1>
+      <p>
+        Это стартовая страница учебного frontend-проекта.
+        В дальнейшем на её основе будет разработан многостраничный сайт
+        интернет-магазина или каталога услуг.
+      </p>
+      <a class="button" href="#popular">Перейти к товарам</a>
+    </section>
+
+    <section class="section" id="advantages">
+      <h2>Преимущества проекта</h2>
+
+      <ul class="advantages-list">
+        <li>понятная HTML-структура;</li>
+        <li>семантические блоки страницы;</li>
+        <li>подключение внешнего CSS-файла;</li>
+        <li>подготовка к разработке многостраничного сайта.</li>
+      </ul>
+    </section>
+    
+    <section class="faq" id="faq">
+      <h2 class="faq__title">Частые вопросы</h2>
+
+      <div class="faq__list">
+
+        <details class="faq__item">
+          <summary class="faq__question">Как оформить заказ?</summary>
+          <p class="faq__answer">
+            Чтобы оформить заказ, выберите понравившийся товар (CD, винил или коллекционное издание) в разделе «Каталог» или «Популярные товары». Нажмите кнопку «Заказать» — откроется форма заявки, где вам нужно будет указать своё имя, e-mail и номер телефона для связи. После заполнения нажмите «Отправить». Наш менеджер свяжется с вами в течение 15 минут в рабочее время, чтобы подтвердить наличие товара, уточнить детали доставки и согласовать удобный способ оплаты.
+          </p>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">Какие способы оплаты вы принимаете?</summary>
+          <p class="faq__answer">
+            Мы стараемся сделать покупку максимально удобной, поэтому принимаем несколько видов оплаты:
+          </p>
+
+          <p class="faq__answer">— Банковские карты (Visa, MasterCard, МИР) — оплата проходит на защищённой странице банка;</p>
+          <p class="faq__answer"> — Системы быстрых платежей (СБП) — по QR-коду через приложение вашего банка;</p>
+          <p class="faq__answer">— Электронные кошельки (ЮMoney);</p>
+          <p class="faq__answer">— Наличными курьеру при получении и осмотре заказа;</p>
+          <p class="faq__answer">— Безналичный расчёт (для юридических лиц с предоставлением закрывающих документов).</p>
+
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">Сколько стоит доставка?</summary>
+          <p class="faq__answer">
+            Стоимость и сроки доставки зависят от вашего региона и выбранного способа:
+          </p>
+
+          <p class="faq__answer">
+            — По Москве и Санкт-Петербургу — курьером от 350 рублей (доставка от 1 до 2 дней). При заказе на сумму от 5000 рублей доставка по городу бесплатная;
+          </p>
+
+          <p class="faq__answer">
+            — По России — Почтой России или курьерской службой (СДЭК, Boxberry) от 400 рублей. Срок доставки составляет от 3 до 7 рабочих дней в зависимости от удалённости региона;
+          </p>
+
+          <p class="faq__answer">
+          — Самовывоз — абсолютно бесплатно. Вы можете забрать заказ из нашего пункта выдачи по адресу, указанному на странице «Контакты».
+          </p>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">Можно ли вернуть товар?</summary>
+          <p class="faq__answer">
+            Да, вы можете вернуть товар в течение 14 дней с момента получения посылки.
+          </p>
+
+          <p class="faq__answer">
+            Условия возврата: товар не должен быть в употреблении, на нём должны сохраниться оригинальная заводская упаковка, плёнка и все комплектующие (буклеты, вкладыши, наклейки).
+          </p>
+
+          <p class="faq__answer">
+            Чтобы оформить возврат, свяжитесь с нами через форму обратной связи, приложите фото товара и чек. После проверки состояния возврат денежных средств осуществляется на ту же карту, с которой была произведена оплата, в течение 3–5 рабочих дней. (Обратите внимание: коллекционные издания с нарушенной заводской плёнкой возврату и обмену не подлежат, согласно законодательству).
+          </p>
+          
+        </details>
+
+      </div>
+    </section>
+
+    <section class="section" id="popular">
+      <h2>Популярные товары</h2>
+
+      <div class="products-grid">
+        <article class="product-card product-card--featured">
+
+          <img class="product-card__image" src="images/product-1.jpg" alt="CD диск Слава КПСС" width="300" height="200" loading="lazy">
+
+          <h3 class="product-card__title">Слава КПСС - Россия34 / CD диск</h3>
+          <p class="product-card__description">Аудио CD-диск с тщательно подобранными композициями в высоком качестве звучания. Идеально подойдет для коллекционеров, ценителей музыки и меломанов. Наслаждайтесь любимыми треками в классическом формате, который никогда не теряет актуальности.</p>
+          <p class="product-card__price">Цена: 5300 руб.</p>
+          <button
+            class="button product-card__button"
+            type="button"
+            data-product="Товар 1">Заказать</button>
+        </article>
+
+        <article class="product-card product-card--featured">
+
+          <img class="product-card__image" src="images/product-2.jpg" alt="Коллекционный" width="300" height="200" loading="lazy">
+
+          <h3 class="product-card__title">Коллекционное издание СЛАВА КПСС 1990-2021</h3>
+          <p class="product-card__description">Коллекционное издание с полной дискографией от Славы КПСС и других альтер эго артиста  Включает 4 джевелбокса по 2 CD: это 8 дисков, с более чем 1200 композициями + бонусные, невышедшие треки  Рукав из приятной софт-тач бумаги с золотым тиснением.</p>
+          <p class="product-card__price">Цена: 7500 руб.</p>
+          <button
+            class="button product-card__button"
+            type="button"
+            data-product="Товар 2">Заказать</button>
+        </article>
+
+        <article class="product-card product-card--featured">
+
+          <img class="product-card__image" src="images/product-3.jpg" alt="Замай" width="300" height="200" loading="lazy">
+
+          <h3 class="product-card__title">Винил Из Замка в Замок</h3>
+          <p class="product-card__description">Лимитированое издание на виниле.</p>
+          <p class="product-card__price">Цена: 4560 руб.</p>
+          <button
+            class="button product-card__button"
+            type="button"
+            data-product="Товар 3">Заказать</button>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="reviews" id="reviews">
+      <h2 class="reviews__title">Отзывы покупателей</h2>
+
+      <div class="reviews__list">
+
+        <article class="review-card">
+          <div class="review-card__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <p class="review-card__text">Отличный магазин! Заказала товар, привезли на следующий день. Очень довольна качеством и сервисом.</p>
+          <p class="review-card__author">— Анна</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <p class="review-card__text">Удобный сайт, понятный поиск и оформление заказа. Буду заказывать ещё.</p>
+          <p class="review-card__author">— Иван</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__stars" aria-label="Оценка 4 из 5">★★★★☆</div>
+          <p class="review-card__text">Хороший выбор товаров. Единственное — хотелось бы больше способов оплаты.</p>
+          <p class="review-card__author">— Мария</p>
+        </article>
+
+      </div>
+    </section>
+
+
+    <aside class="aside-info">
+      <h2>Информация для студентов</h2>
+      <p>
+        На следующих практических занятиях этот проект будет расширяться:
+        появятся формы, модальное окно, дополнительные страницы, Flex/Grid,
+        БЭМ-структура и адаптивная версия сайта.
+      </p>
+    </aside>
+
+    <footer id="contacts">
+      <p>&copy; 2026 Учебный проект. Все права защищены.</p>
+      <p>Дисциплина: Фронтенд и бэкенд разработка</p>
+    </footer>
+
+  </main>
+  <dialog class="order-dialog" id="order-dialog" aria-labelledby="order-dialog-title">
+    <h2 class="order-dialog__title" id="order-dialog-title">Оформление заявки</h2>
+
+    <form class="order-form" id="order-form" action="#" method="post" novalidate>
+      <input
+        class="order-form__input"
+        id="selected-product"
+        name="selected-product"
+        type="hidden"
+      >
+
+      <div class="order-form__field">
+        <label class="order-form__label" for="order-name">Имя</label>
+        <input
+          class="order-form__input"
+          id="order-name"
+          name="name"
+          type="text"
+          placeholder="Введите ваше имя"
+          minlength="2"
+          autocomplete="given-name"
+          required
+        >
+      </div>
+
+      <div class="order-form__field">
+        <label class="order-form__label" for="order-email">E-mail</label>
+        <input
+          class="order-form__input"
+          id="order-email"
+          name="email"
+          type="email"
+          placeholder="example@mail.ru"
+          autocomplete="email"
+          required
+        >
+      </div>
+
+      <div class="order-form__field">
+        <label class="order-form__label" for="order-phone">Телефон</label>
+        <input
+          class="order-form__input"
+          id="order-phone"
+          name="phone"
+          type="tel"
+          inputmode="tel"
+          placeholder="+7 (900) 000-00-00"
+          pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$"
+          required
+        >
+        <small class="order-form__hint">Формат: +7 (900) 000-00-00</small>
+      </div>
+
+      <div class="order-form__field">
+        <label class="order-form__label" for="order-date">Дата связи</label>
+        <input
+          class="order-form__input"
+          id="order-date"
+          name="date"
+          type="date"
+        >
+      </div>
+
+      <div class="order-form__field">
+        <label class="order-form__label" for="order-topic">Тема заявки</label>
+        <select class="order-form__input" id="order-topic" name="topic" required>
+          <option value="">Выберите тему</option>
+          <option value="product">Заказ товара</option>
+          <option value="consultation">Консультация</option>
+          <option value="delivery">Доставка</option>
+        </select>
+      </div>
+
+      <div class="order-form__field">
+        <label class="order-form__label" for="order-comment">Комментарий</label>
+        <textarea
+          class="order-form__input"
+          id="order-comment"
+          name="comment"
+          rows="4"
+          placeholder="Укажите дополнительную информацию"
+        ></textarea>
+      </div>
+
+      <div class="order-form__field order-form__field--checkbox">
+        <label class="order-form__label">
+          <input
+            class="order-form__checkbox"
+            id="order-agreement"
+            name="agreement"
+            type="checkbox"
+            required
+          >
+          Я согласен на обработку данных
+        </label>
+      </div>
+
+      <div class="order-form__actions">
+        <button class="button button--secondary" type="button" id="close-order-dialog">
+          Закрыть
+        </button>
+        <button class="button button--primary" type="submit">
+          Отправить заявку
+        </button>
+      </div>
+    </form>
+  </dialog>
+
+  <p class="success-message" id="success-message" hidden>
+    Форма успешно отправлена!
+  </p>
+
+</body>
+</html>
